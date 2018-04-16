@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115455263-2"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-115455263-2');
+      </script>
+
+
+    <title>The Source</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!--fixed header logos and menus-->
+      <div class="row logoAppearP">
+        <a href="index.html"><img class="img-responsive col-lg-12 col-md-12 hidden-sm hidden-xs" src="images/logo_desktop.png"></a>
+        <div class="mobileHeader">
+          <div class="dropdown">
+            <button class = "menu phoneMenu img-responsive dropdown-toggle hidden-lg hidden-md col-sm-1 col-xs-1" type="button" data-toggle="dropdown">
+                <img src="images/menu_adj.png"  alt="Hamburger Icon" class="img-responsive">
+            </button>
+            <ul class="menuitems dropdown-menu hidden-lg hidden-md col-sm-12 col-xs-12">
+              <img class="img-responsive hidden-lg hidden-md col-sm-offset-2 col-sm-8 col-xs-offset-2 col-xs-8 menuLogo" src="images/logo_mobile.png">
+              <li> <a href="https://www.google.com"> About Us </a> </li>
+              <li> <a href="productpage.html"> Shop </a> </li>
+              <li> <a href="https://www.instagram.com/from_thesource/"> Blog </a> </li>
+              <li> <a href="https://www.google.com"> FAQ </a> </li>
+              <li> <a href="https://www.google.com"> Contact Us </a> </li>
+              <img class="img-responsive hidden-lg hidden-md col-sm-offset-5 col-sm-2 col-xs-offset-5 col-xs-2 menuCross" src="images/cross.png">
+            </ul>
+          </div>
+          <a href="index.html"><img class="img-responsive hidden-lg hidden-md col-sm-8 col-xs-8 logoMob" src="images/logo_mobile.png"></a>
+          <img class="img-responsive hidden-lg hidden-md col-sm-1 col-xs-1 cart" src="images/cartnew.png">
+        </div>
+      </div>
+
+      <!-- fixed desktop menu-->
+      <div class="row">
+        <div class = "col-lg-2 col-md-2 hidden-sm hidden-xs">
+          <nav>
+            <ul class="nav nav-pills nav-stacked span1 deskNavP">
+              <li> <a href="https://www.google.com"> About Us </a> </li>
+              <li> <a href="productpage.html"> Shop </a> </li>
+              <li> <a href="https://www.instagram.com/from_thesource"> Blog </a> </li>
+              <li> <a href="https://www.google.com"> FAQ </a> </li>
+              <li> <a href="https://www.google.com"> Contact Us </a> </li>
+              <li> <a href="https://www.google.com"> Cart </a> </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+
+      <!--fixed product description-->
+      <div class="row">
+        <div class="descDeskPos col-lg-offset-7 col-lg-3 col-md-offset-7 col-md-3 hidden-sm hidden-xs">
+          <p class="prodTitle">Raincoat</p>
+          <p class="prodPrice">£89</p>
+          <p class="descDesk">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at lacinia augue. Vivamus ullamcorper facilisis tincidunt. </p>
+        </div>
+      </div>
+
+      <!--fixed shopnow button-->
+      <div class="col-lg-offset-7 col-lg-3 col-md-offset-7 col-md-3 hidden-sm hidden-xs">
+          <button class="buttonDesk">Add to Cart</button>
+      </div>
+
+      <!--product images-->
+      <div class="row">
+        <div class="img-responsive col-lg-offset-2 col-lg-4 col-md-offset-2 col-md-4 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10">
+          <img src="images/front.jpg" class="img-responsive prodImage1">
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="descMob hidden-lg hidden-md col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10">
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at lacinia augue. Vivamus ullamcorper facilisis tincidunt. </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="img-responsive col-lg-offset-2 col-lg-4 col-md-offset-2 col-md-4 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10">
+          <img src="images/side.jpg" class="img-responsive prodImage">
+        </div>
+      </div>
+      <div class="row">
+        <div class="img-responsive col-lg-offset-2 col-lg-4 col-md-offset-2 col-md-4 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10">
+          <img src="images/back.jpg" class="img-responsive prodImage">
+        </div>
+      </div>
+      <div class="row">
+        <div class="img-responsive col-lg-offset-2 col-lg-4 col-md-offset-2 col-md-4 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10">
+          <img src="images/frontcloseup.jpg" class="img-responsive prodImage4">
+        </div>
+      </div>
+
+      <!--buy button mobile-->
+      <div classs="row text-center">
+        <button class="buttonMob hidden-lg hidden-md col-sm-11 col-xs-11"> Add to Cart </button>
+      </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/homepage.js"></script>
+  </body>
+</html>
