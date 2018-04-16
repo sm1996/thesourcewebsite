@@ -113,3 +113,102 @@ a:focus{
 
 /*bootstrap column reformat end*/
 /*Shamama css commit part 3 end*/
+
+/*Shamama css commit part4*/
+/*productpage css*/
+
+.descDesk{
+  margin-left:0;
+  margin-top:0;
+  margin-bottom:0;
+  margin-right:0;
+  padding-left:0;
+  padding-right:0;
+  padding-top:0;
+  padding-bottom:0;
+}
+
+.descDeskPos{
+  position:fixed;
+  bottom:40%;
+  font-size: 16px;
+}
+
+.descMob{
+  font-size:16px;
+  margin-top:1em;
+}
+
+.prodTitle{
+  font-size:20px;
+}
+
+.prodPrice{
+  font-size:18px;
+}
+
+.buttonDesk{
+  border-style: solid;
+  border-width: medium;
+  border-color: #f04d44;
+  background-color:transparent;
+  position:fixed;
+  bottom:30%;
+  padding-top:5px;
+  padding-bottom:5px;
+  font-size:16px;
+  width:25%;
+}
+
+.buttonDesk:hover{
+  background:#fdd80e;
+}
+
+.buttonDesk:active{
+  background:#fdd80e;
+}
+
+.buttonDesk:focus{
+  background:#fdd80e;
+}
+
+.buttonMob{
+  border-style: solid;
+  border-width: medium;
+  border-color: #f04d44;
+  background-color:#f2f2f2;
+  position:fixed;
+  bottom:10px;
+  padding-top:5px;
+  padding-bottom:5px;
+  font-size:16px;
+}
+
+.buttonMob:hover{
+  background:#fdd80e;
+}
+
+.buttonMob:active{
+  background:#fdd80e;
+}
+
+.buttonMob:focus{
+  background:#fdd80e;
+}
+
+.prodImage1{
+  margin-top:33%;
+}
+
+.prodImage4{
+  margin-top:1em;
+  margin-bottom:20%;
+}
+
+.prodImage{
+  margin-top:1em;
+}
+
+/*product page css end*/
+/*Shamama css commit part 4 end*/
+
