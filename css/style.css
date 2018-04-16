@@ -52,3 +52,64 @@ a:focus{
 
 /*shopnow and about us css end*/
 /*Shamama css commit part 2 end*/
+
+/*Ambia css commit*/
+/*Ambia css commit end*/
+
+/*Shamama css commit part 3*/
+/*bootstrap column reformat*/
+
+.col-lg-12{
+  padding-right:0px;
+  padding-left:0px;
+}
+
+.col-md-12{
+  padding-right:0px;
+  padding-left:0px;
+}
+
+.col-sm-12{
+  padding-right:0px;
+  padding-left:0px;
+}
+
+.col-xs-12{
+  padding-right:0px;
+  padding-left:0px;
+}
+
+.col-xs-1.menu{
+  padding:0;
+  margin-left:5%;
+}
+
+.col-sm-1.menu{
+  padding:0;
+  margin-left:5%;
+}
+
+.col-xs-1.cart{
+  padding:0;
+  margin-top:0.5%;
+  margin-right:5%;
+}
+
+.col-sm-1.cart{
+  padding:0;
+  margin-top:0.5%;
+  margin-right:5%;
+}
+
+.col-xs-8.logoMob{
+  margin-right:2.5%;
+  margin-left:2.5%;
+}
+
+.col-sm-8.logoMob{
+  margin-right:2.5%;
+  margin-left:2.5%;
+}
+
+/*bootstrap column reformat end*/
+/*Shamama css commit part 3 end*/
