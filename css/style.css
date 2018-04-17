@@ -30,6 +30,154 @@ a:focus{
 /*Shamama css commit part 1 end*/
 
 /*Abi css commt*/
+/*menu and header css*/
+
+.nav li a{
+  padding:0;
+  margin-bottom:18px;
+  line-height:1;
+}
+
+.nav li a:focus{
+  background-color:#fdd80e;
+}
+
+.nav li a:hover{
+  background-color:#fdd80e;
+  line-height:1;
+}
+
+.nav-pills li a{
+  border-radius:0;
+}
+
+.menufixed{
+  position: fixed;
+  top: 35%;
+  left:20px;
+  padding:none;
+  z-index:999;
+}
+
+
+.logo{
+  padding-top:10px;
+  padding-bottom:2%;
+  z-index:999;
+}
+
+.logo .mobileHeader{
+  -webkit-transition: opacity 0.75s; /* Safari */
+  transition: opacity 0.75s;
+}
+
+.logoAppear{
+  z-index:999;
+  position:fixed;
+  opacity:0;
+
+}
+
+.logoAppear .mobileHeader{
+  -webkit-transition: opacity 0.75s; /* Safari */
+  transition: opacity 0.75s;
+}
+
+.logoAppearP{
+  z-index:999;
+  position:fixed;
+  opacity:1;
+
+}
+
+.deskNav{
+  z-index:999;
+  position:fixed;
+  top:35%;
+  left:20px;
+  opacity:0;
+  -webkit-transition: opacity 0.5s; /* Safari */
+  transition: opacity 0.5s;
+}
+
+.deskNavP{
+  z-index:999;
+  position:fixed;
+  top:35%;
+  left:20px;
+  opacity:1;
+}
+
+.logoMob{
+  padding-top:1.5%;
+  padding-bottom:2%;
+}
+
+.phoneMenu{
+  border:none;
+  background:none;
+  padding:0;
+}
+
+.phoneMenu:hover{
+  border:none;
+  background:none;
+  padding:0;
+}
+
+.phoneMenu:active{
+  border:none;
+  background:none;
+  padding:0;
+}
+
+.menuDropdown{
+  width:100%;
+  height:400px;
+  background:#fdd80e;
+  z-index:998;
+  opacity:0;
+  position:fixed;
+  -webkit-transition: opacity 0.5s; /* Safari */
+  transition: opacity 0.5s;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
+}
+
+.dropdown-menu{
+  background-color: #fdd80e;
+  z-index:998;
+  margin:0;
+  border-radius:0;
+  border:none;
+}
+
+.dropdown-menu li a{
+  color:#f04d44;
+  font-size: 4em;
+}
+
+.dropdown-menu li a:hover{
+  color:#f685a1;
+  background-color: transparent;
+}
+
+.dropdown-menu li a:focus{
+  color:#f685a1;
+  background-color: transparent;
+}
+
+.menuCross{
+  margin-bottom:1.5%;
+  margin-top:1.5%;
+}
+
+.menuLogo{
+    margin-top:1.5%;
+    margin-bottom:1.5%;
+}
+
+/*menu and header css end*/
 /*Abi css commit end*/
 
 
@@ -211,4 +359,3 @@ a:focus{
 
 /*product page css end*/
 /*Shamama css commit part 4 end*/
-
