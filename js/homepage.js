@@ -1,18 +1,30 @@
-var logoTop = $('.logo').offset().top;
-var shopNowTop = $('.shopnow').offset().top;
 $(window).scroll(function() {
-    var currentScroll = $(window).scrollTop();
+  $('.logoAppear').css({
+    opacity:'0.5'
+  });
+
+  $('.logo').css({
+    opacity:'0.5'
+  });
+
+  var logoTop = $('.logo').offset().top;
+  if ($(window).width()>990){
+      var shopNowTop = $('.shopnow').offset().top;
+  }else{
+      var shopNowTop = $('.shopNowMob').offset().top;
+  }
+  var currentScroll = $(window).scrollTop();
     if (currentScroll >= logoTop) {
+      $('.logo').css({
+        opacity:'0.5'
+      });
       $('.logoAppear').css({
         opacity:'1'
-      });
-      $('.logo').css({
-        opacity:'0'
       });
     }
     else{
       $('.logoAppear').css({
-        opacity:'0'
+        opacity:'0.5'
       });
       $('.logo').css({
         opacity:'1'
@@ -20,16 +32,17 @@ $(window).scroll(function() {
     }
 
     if (currentScroll >= logoTop && currentScroll<=shopNowTop) {
+
         $('.deskNav').css({
           opacity:'1'
         });
 
     } else {
         $('.deskNav').css({
-          opacity:'0'
+          opacity:'0.5'
         });
         $('.logoAppear').css({
-          opacity:'0'
+          opacity:'0.5'
         });
     }
 });
