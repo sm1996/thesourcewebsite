@@ -16,7 +16,7 @@ $(window).scroll(function() {
   var currentScroll = $(window).scrollTop();
     if (currentScroll >= logoTop) {
       $('.logo').css({
-        opacity:'0.5'
+        opacity:'0'
       });
       $('.logoAppear').css({
         opacity:'1'
@@ -24,7 +24,7 @@ $(window).scroll(function() {
     }
     else{
       $('.logoAppear').css({
-        opacity:'0.5'
+        opacity:'0'
       });
       $('.logo').css({
         opacity:'1'
@@ -39,10 +39,10 @@ $(window).scroll(function() {
 
     } else {
         $('.deskNav').css({
-          opacity:'0.5'
+          opacity:'0'
         });
         $('.logoAppear').css({
-          opacity:'0.5'
+          opacity:'0'
         });
     }
 });
