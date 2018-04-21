@@ -1,10 +1,10 @@
 $(window).scroll(function() {
   $('.logoAppear').css({
-    opacity:'0.5'
+    opacity:'0'
   });
 
   $('.logo').css({
-    opacity:'0.5'
+    opacity:'1'
   });
 
   var logoTop = $('.logo').offset().top;
