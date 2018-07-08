@@ -1,0 +1,248 @@
+/*Every Page*/
+
+  /*Basic Styling*/
+    body{
+      font-family:Ubuntu Mono;
+      font-size:20px;
+      color: #f04d44;
+      background:#f2f2f2;
+    }
+
+    a{
+      text-decoration: none;
+      color: #f04d44;
+    }
+
+    a:hover{
+      text-decoration: none;
+      background-color:#fdd80e;
+      color: #f04d44;
+      outline:0;
+    }
+
+    a:focus{
+      outline:0;
+    }
+
+    .container-fluid{
+      margin:0;
+    }
+
+  /*Logo and add to cart non-index*/
+    .logoOther{
+      position:fixed;
+      z-index:999;
+    }
+
+    #addToCartOther{
+      display:none;
+    }
+
+  /*Column re-formatting*/
+
+    .col-lg-12{
+      padding-right:0px;
+      padding-left:0px;
+    }
+
+    .col-md-12{
+      padding-right:0px;
+      padding-left:0px;
+    }
+
+    .col-sm-12{
+      padding-right:0px;
+      padding-left:0px;
+    }
+
+    .col-xs-12{
+      padding-right:0px;
+      padding-left:0px;
+    }
+
+  /*Menu*/
+
+    /*Desktop*/
+
+    .deskNav{
+      -webkit-transition: opacity 0.75s; /* Safari */
+      transition: opacity 0.75;
+    }
+
+    .deskNavP{
+      z-index:999;
+      position:fixed;
+      top:35%;
+      left:20px;
+      opacity:1;
+    }
+
+    .nav li a{
+      padding:0;
+      margin-bottom:18px;
+      line-height:1;
+    }
+
+    .nav li a:focus{
+      background-color:#fdd80e;
+    }
+
+    .nav li a:hover{
+      background-color:#fdd80e;
+      line-height:1;
+    }
+
+    .nav-pills li a{
+      border-radius:0;
+    }
+
+    /*Mobile*/
+
+    .phoneMenu{
+      border:none;
+      background:none;
+      padding:0;
+    }
+
+    .phoneMenu:hover{
+      border:none;
+      background:none;
+      padding:0;
+    }
+
+    .phoneMenu:active{
+      border:none;
+      background:none;
+      padding:0;
+    }
+
+    .menuDropdown{
+      width:100%;
+      height:400px;
+      background:#fdd80e;
+      z-index:998;
+      opacity:0;
+      position:fixed;
+      -webkit-transition: opacity 0.5s; /* Safari */
+      transition: opacity 0.5s;
+      -webkit-transition-timing-function: ease;
+      transition-timing-function: ease;
+    }
+
+    .dropdown-menu{
+      background-color: #fdd80e;
+      z-index:998;
+      margin:0;
+      border-radius:0;
+      border:none;
+    }
+
+    .dropdown-menu li a{
+      color:#f04d44;
+      font-size: 23px;
+    }
+
+    .dropdown-menu li a:hover{
+      color:#f685a1;
+      background-color: transparent;
+    }
+
+    .dropdown-menu li a:focus{
+      color:#f685a1;
+      background-color: transparent;
+    }
+
+    .menuCross{
+      margin-bottom:1.5%;
+      margin-top:1.5%;
+    }
+
+    .menuLogo{
+        margin-top:1.5%;
+        margin-bottom:1.5%;
+    }
+
+    .col-xs-1.menu{
+      padding:0;
+      margin-left:5%;
+    }
+
+    .col-sm-1.menu{
+      padding:0;
+      margin-left:5%;
+    }
+
+    .col-xs-8.logoMob{
+      margin-right:2.5%;
+      margin-left:2.5%;
+      margin-top:2.5%;
+    }
+
+    .col-sm-8.logoMob{
+      margin-right:2.5%;
+      margin-left:2.5%;
+      margin-top:2.5%;
+    }
+
+  /*Cart*/
+
+    /*Desktop*/
+    @media (min-width: 992px){
+
+      #cart-toggle{
+        position:fixed;
+        top:60%;
+      }
+
+      #cart-toggle .shopify-buy-frame--toggle:not(.is-sticky){
+        background-color:#f04d44;
+        border-radius:50%;
+        height:35px;
+        width:35px;
+        transform:translateY(8px);
+      }
+
+      #cart-toggle .shopify-buy__cart-toggle__count{
+        color:#fdd80e;
+        padding-left:11px;
+        margin-top:1px;
+      }
+
+      #cart-toggle p{
+        display:none;
+      }
+
+    }
+
+    /*Mobile*/
+    @media (max-width: 991px){
+      #cart-toggle{
+        padding:0;
+        margin-top:4%;
+        z-index:999;
+        position:fixed;
+        right:5%;
+      }
+
+      #cart-toggle .shopify-buy-frame--toggle:not(.is-sticky){
+        background-color:#f04d44;
+        border-radius:50%;
+        height:auto;
+        width:175%;
+        position:relative;
+        font-size:4.5vw;
+        text-align:center;
+      }
+
+      #cart-toggle .shopify-buy__cart-toggle__count{
+        color:#fdd80e;
+        padding-left:5px;
+      }
+
+      #cart-toggle p{
+        display:none;
+      }
+
+
+
+    }
