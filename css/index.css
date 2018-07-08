@@ -25,6 +25,10 @@
 
 /*Content*/
 
+  .aboutus{
+    font-size:2em;
+  }
+
   .image2{
     margin-top:3em;
   }
@@ -32,11 +36,16 @@
   .shopnow{
     writing-mode:tb-rl;
     float:right;
-    margin-top:10em;
+    margin-top:5em;
+    font-size:2em;
   }
 
   .image3{
     margin-top:5%;
+  }
+
+  .shopNowMob{
+    font-size: 2em;
   }
 
 /*Hands*/
