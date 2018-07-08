@@ -1,387 +1,248 @@
-/*Shamama css commit part 1*/
-/*basic css*/
-body{
-  font-family:Ubuntu Mono;
-  font-size:20px;
-  color: #f04d44;
-  background:#f2f2f2;
-}
-
-a{
-  text-decoration: none;
-  color: #f04d44;
-}
-
-a:hover{
-  text-decoration: none;
-  background-color:#fdd80e;
-  color: #f04d44;
-  outline:0;
-}
-
-a:focus{
-  outline:0;
-}
-
-.container-fluid{
-  margin:0;
-}
-/*basic css end*/
-/*Shamama css commit part 1 end*/
-
-/*Abi css commt*/
-/*menu and header css*/
-
-.nav li a{
-  padding:0;
-  margin-bottom:18px;
-  line-height:1;
-}
-
-.nav li a:focus{
-  background-color:#fdd80e;
-}
-
-.nav li a:hover{
-  background-color:#fdd80e;
-  line-height:1;
-}
-
-.nav-pills li a{
-  border-radius:0;
-}
-
-.menufixed{
-  position: fixed;
-  top: 35%;
-  left:20px;
-  padding:none;
-  z-index:999;
-}
-
-
-.logo{
-  padding-top:10px;
-  padding-bottom:2%;
-  z-index:999;
-}
-
-.logo .mobileHeader{
-  -webkit-transition: opacity 0.75s; /* Safari */
-  transition: opacity 0.75s;
-}
-
-.logoAppear{
-  z-index:999;
-  position:fixed;
-  opacity:0;
-
-}
-
-.logoAppear .mobileHeader{
-  -webkit-transition: opacity 0.75s; /* Safari */
-  transition: opacity 0.75s;
-}
-
-.logoAppearP{
-  z-index:999;
-  position:fixed;
-  opacity:1;
-
-}
-
-.deskNav{
-  z-index:999;
-  position:fixed;
-  top:35%;
-  left:20px;
-  opacity:0;
-  -webkit-transition: opacity 0.5s; /* Safari */
-  transition: opacity 0.5s;
-}
-
-.deskNavP{
-  z-index:999;
-  position:fixed;
-  top:35%;
-  left:20px;
-  opacity:1;
-}
-
-.logoMob{
-  padding-top:1.5%;
-  padding-bottom:2%;
-}
-
-.phoneMenu{
-  border:none;
-  background:none;
-  padding:0;
-}
-
-.phoneMenu:hover{
-  border:none;
-  background:none;
-  padding:0;
-}
-
-.phoneMenu:active{
-  border:none;
-  background:none;
-  padding:0;
-}
-
-.menuDropdown{
-  width:100%;
-  height:400px;
-  background:#fdd80e;
-  z-index:998;
-  opacity:0;
-  position:fixed;
-  -webkit-transition: opacity 0.5s; /* Safari */
-  transition: opacity 0.5s;
-  -webkit-transition-timing-function: ease;
-  transition-timing-function: ease;
-}
-
-.dropdown-menu{
-  background-color: #fdd80e;
-  z-index:998;
-  margin:0;
-  border-radius:0;
-  border:none;
-}
-
-.dropdown-menu li a{
-  color:#f04d44;
-  font-size: 20px;
-}
-
-.dropdown-menu li a:hover{
-  color:#f685a1;
-  background-color: transparent;
-}
-
-.dropdown-menu li a:focus{
-  color:#f685a1;
-  background-color: transparent;
-}
-
-.menuCross{
-  margin-bottom:1.5%;
-  margin-top:1.5%;
-}
-
-.menuLogo{
-    margin-top:1.5%;
-    margin-bottom:1.5%;
-}
-
-/*menu and header css end*/
-/*Abi css commit end*/
-
-
-/*Shamama css commit part 2*/
-/*shopnow and about us css*/
-
-.image2{
-  margin-top:3em;
-}
-
-.shopnow{
-  writing-mode:tb-rl;
-  float:right;
-  margin-top:10em;
-}
-
-.image3{
-  margin-top:5%;
-}
-
-/*shopnow and about us css end*/
-/*Shamama css commit part 2 end*/
-
-/*Ambia css commit*/
-.hands{
-  margin-top:5%;
-}
-
-.emailAdd{
-  border: none;
-  border-bottom: 1px solid;
-  border-color:#f04d44;
-  font-size: 23px;
-  color:#f04d44;
-  font-family: 'Ubuntu Mono', monospace;
-  background:#f2f2f2;
-  margin-bottom:10px;
-}
-
-.emailButt{
-  background:#f04d44;
-  color:#fdd80e;
-  border:none;
-  font-size:23px;
-  padding-left:5px;
-  padding-right:5px;
-  width:7%;
-  margin-bottom:20px;
-}
-
-/*Ambia css commit end*/
-
-/*Shamama css commit part 3*/
-/*bootstrap column reformat*/
-
-.col-lg-12{
-  padding-right:0px;
-  padding-left:0px;
-}
-
-.col-md-12{
-  padding-right:0px;
-  padding-left:0px;
-}
-
-.col-sm-12{
-  padding-right:0px;
-  padding-left:0px;
-}
-
-.col-xs-12{
-  padding-right:0px;
-  padding-left:0px;
-}
-
-.col-xs-1.menu{
-  padding:0;
-  margin-left:5%;
-}
-
-.col-sm-1.menu{
-  padding:0;
-  margin-left:5%;
-}
-
-.col-xs-1.cart{
-  padding:0;
-  margin-top:0.5%;
-  margin-right:5%;
-}
-
-.col-sm-1.cart{
-  padding:0;
-  margin-top:0.5%;
-  margin-right:5%;
-}
-
-.col-xs-8.logoMob{
-  margin-right:2.5%;
-  margin-left:2.5%;
-}
-
-.col-sm-8.logoMob{
-  margin-right:2.5%;
-  margin-left:2.5%;
-}
-
-/*bootstrap column reformat end*/
-/*Shamama css commit part 3 end*/
-
-/*Shamama css commit part4*/
-/*productpage css*/
-
-.descDesk{
-  margin-left:0;
-  margin-top:0;
-  margin-bottom:0;
-  margin-right:0;
-  padding-left:0;
-  padding-right:0;
-  padding-top:0;
-  padding-bottom:0;
-}
-
-.descDeskPos{
-  position:fixed;
-  bottom:40%;
-  font-size: 16px;
-}
-
-.descMob{
-  font-size:16px;
-  margin-top:1em;
-}
-
-.prodTitle{
-  font-size:20px;
-}
-
-.prodPrice{
-  font-size:18px;
-}
-
-.buttonDesk{
-  border-style: solid;
-  border-width: medium;
-  border-color: #f04d44;
-  background-color:transparent;
-  position:fixed;
-  bottom:30%;
-  padding-top:5px;
-  padding-bottom:5px;
-  font-size:16px;
-  width:25%;
-}
-
-.buttonDesk:hover{
-  background:#fdd80e;
-}
-
-.buttonDesk:active{
-  background:#fdd80e;
-}
-
-.buttonDesk:focus{
-  background:#fdd80e;
-}
-
-.buttonMob{
-  border-style: solid;
-  border-width: medium;
-  border-color: #f04d44;
-  background-color:#f2f2f2;
-  position:fixed;
-  bottom:10px;
-  padding-top:5px;
-  padding-bottom:5px;
-  font-size:16px;
-}
-
-.buttonMob:hover{
-  background:#fdd80e;
-}
-
-.buttonMob:active{
-  background:#fdd80e;
-}
-
-.buttonMob:focus{
-  background:#fdd80e;
-}
-
-.prodImage1{
-  margin-top:33%;
-}
-
-.prodImage4{
-  margin-top:1em;
-  margin-bottom:20%;
-}
-
-.prodImage{
-  margin-top:1em;
-}
-
-/*product page css end*/
-/*Shamama css commit part 4 end*/
+/*Every Page*/
+
+  /*Basic Styling*/
+    body{
+      font-family:Ubuntu Mono;
+      font-size:20px;
+      color: #f04d44;
+      background:#f2f2f2;
+    }
+
+    a{
+      text-decoration: none;
+      color: #f04d44;
+    }
+
+    a:hover{
+      text-decoration: none;
+      background-color:#fdd80e;
+      color: #f04d44;
+      outline:0;
+    }
+
+    a:focus{
+      outline:0;
+    }
+
+    .container-fluid{
+      margin:0;
+    }
+
+  /*Logo and add to cart non-index*/
+    .logoOther{
+      position:fixed;
+      z-index:999;
+    }
+
+    #addToCartOther{
+      display:none;
+    }
+
+  /*Column re-formatting*/
+
+    .col-lg-12{
+      padding-right:0px;
+      padding-left:0px;
+    }
+
+    .col-md-12{
+      padding-right:0px;
+      padding-left:0px;
+    }
+
+    .col-sm-12{
+      padding-right:0px;
+      padding-left:0px;
+    }
+
+    .col-xs-12{
+      padding-right:0px;
+      padding-left:0px;
+    }
+
+  /*Menu*/
+
+    /*Desktop*/
+
+    .deskNav{
+      -webkit-transition: opacity 0.75s; /* Safari */
+      transition: opacity 0.75;
+    }
+
+    .deskNavP{
+      z-index:999;
+      position:fixed;
+      top:35%;
+      left:20px;
+      opacity:1;
+    }
+
+    .nav li a{
+      padding:0;
+      margin-bottom:18px;
+      line-height:1;
+    }
+
+    .nav li a:focus{
+      background-color:#fdd80e;
+    }
+
+    .nav li a:hover{
+      background-color:#fdd80e;
+      line-height:1;
+    }
+
+    .nav-pills li a{
+      border-radius:0;
+    }
+
+    /*Mobile*/
+
+    .phoneMenu{
+      border:none;
+      background:none;
+      padding:0;
+    }
+
+    .phoneMenu:hover{
+      border:none;
+      background:none;
+      padding:0;
+    }
+
+    .phoneMenu:active{
+      border:none;
+      background:none;
+      padding:0;
+    }
+
+    .menuDropdown{
+      width:100%;
+      height:400px;
+      background:#fdd80e;
+      z-index:998;
+      opacity:0;
+      position:fixed;
+      -webkit-transition: opacity 0.5s; /* Safari */
+      transition: opacity 0.5s;
+      -webkit-transition-timing-function: ease;
+      transition-timing-function: ease;
+    }
+
+    .dropdown-menu{
+      background-color: #fdd80e;
+      z-index:998;
+      margin:0;
+      border-radius:0;
+      border:none;
+    }
+
+    .dropdown-menu li a{
+      color:#f04d44;
+      font-size: 23px;
+    }
+
+    .dropdown-menu li a:hover{
+      color:#f685a1;
+      background-color: transparent;
+    }
+
+    .dropdown-menu li a:focus{
+      color:#f685a1;
+      background-color: transparent;
+    }
+
+    .menuCross{
+      margin-bottom:1.5%;
+      margin-top:1.5%;
+    }
+
+    .menuLogo{
+        margin-top:1.5%;
+        margin-bottom:1.5%;
+    }
+
+    .col-xs-1.menu{
+      padding:0;
+      margin-left:5%;
+    }
+
+    .col-sm-1.menu{
+      padding:0;
+      margin-left:5%;
+    }
+
+    .col-xs-8.logoMob{
+      margin-right:2.5%;
+      margin-left:2.5%;
+      margin-top:2.5%;
+    }
+
+    .col-sm-8.logoMob{
+      margin-right:2.5%;
+      margin-left:2.5%;
+      margin-top:2.5%;
+    }
+
+  /*Cart*/
+
+    /*Desktop*/
+    @media (min-width: 992px){
+
+      #cart-toggle{
+        position:fixed;
+        top:60%;
+      }
+
+      #cart-toggle .shopify-buy-frame--toggle:not(.is-sticky){
+        background-color:#f04d44;
+        border-radius:50%;
+        height:35px;
+        width:35px;
+        transform:translateY(8px);
+      }
+
+      #cart-toggle .shopify-buy__cart-toggle__count{
+        color:#fdd80e;
+        padding-left:11px;
+        margin-top:1px;
+      }
+
+      #cart-toggle p{
+        display:none;
+      }
+
+    }
+
+    /*Mobile*/
+    @media (max-width: 991px){
+      #cart-toggle{
+        padding:0;
+        margin-top:4%;
+        z-index:999;
+        position:fixed;
+        right:5%;
+      }
+
+      #cart-toggle .shopify-buy-frame--toggle:not(.is-sticky){
+        background-color:#f04d44;
+        border-radius:50%;
+        height:auto;
+        width:175%;
+        position:relative;
+        font-size:4.5vw;
+        text-align:center;
+      }
+
+      #cart-toggle .shopify-buy__cart-toggle__count{
+        color:#fdd80e;
+        padding-left:5px;
+      }
+
+      #cart-toggle p{
+        display:none;
+      }
+
+
+
+    }
