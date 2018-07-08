@@ -1,0 +1,120 @@
+/*Add to Cart Button Desktop*/
+
+  @media (min-width: 992px){
+
+    #addToCart button{
+      background-color:#f2f2f2;
+      position:fixed;
+      bottom:30%;
+      padding-top:5px;
+      padding-bottom:5px;
+      font-size:16px;
+      width:25%;
+      border-style:solid;
+      border-color:#f04d44;
+      border-width:3px;
+      left:60%;
+    }
+
+    #addToCart button:hover{
+      background-color: #f04d44;
+      color:#fdd80e;
+    }
+
+    #addToCart button:focus{
+      background-color: #f04d44;
+      color:#fdd80e;
+    }
+
+    #addToCart button:active{
+      background-color: #f04d44;
+      color:#fdd80e;
+    }
+
+  }
+
+/*Add to Cart Mobile*/
+
+  @media (max-width: 991px){
+
+    #addToCart button{
+      border-style: solid;
+      border-width: medium;
+      border-color: #f04d44;
+      background-color:#f2f2f2;
+      position:fixed;
+      bottom:10px;
+      padding-top:5px;
+      padding-bottom:5px;
+      font-size:16px;
+      width:90%;
+      left:5%;
+      z-index:999;
+    }
+
+    #addToCart button:hover{
+      background-color: #f04d44;
+      color:#fdd80e;
+    }
+
+    #addToCart button:active{
+      background-color: #f04d44;
+      color:#fdd80e
+    }
+
+    #addToCart button:focus{
+      background-color: #f04d44;
+      color:#fdd80e
+    }
+
+  }
+
+
+/*Product Page Info*/
+
+  .descDesk{
+    margin-left:0;
+    margin-top:0;
+    margin-bottom:0;
+    margin-right:0;
+    padding-left:0;
+    padding-right:0;
+    padding-top:0;
+  }
+
+  .descDeskPos{
+    position:fixed;
+    bottom:40%;
+    font-size: 16px;
+    padding-bottom:0;
+    width:25%;
+    left:60%;
+  }
+
+  .descMob{
+    font-size:16px;
+    margin-top:1em;
+  }
+
+  .prodTitle{
+    font-size:20px;
+  }
+
+  .prodPrice{
+    font-size:18px;
+  }
+
+/*Product Images*/
+
+  .prodImage1{
+    margin-top:33%;
+  }
+
+  .prodImage4{
+    margin-top:1em;
+    margin-bottom:20%;
+  }
+
+  .prodImage{
+    margin-top:1em;
+  }
