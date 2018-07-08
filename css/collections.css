@@ -1,0 +1,18 @@
+/*Product Image Formatting*/
+
+@media (min-width: 992px){
+
+  .product-type{
+    margin-top:19%;
+    margin-left:17%;
+  }
+
+}
+
+@media (max-width: 991px){
+
+  .product-type{
+    margin-top:15%;
+  }
+
+}
