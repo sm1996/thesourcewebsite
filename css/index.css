@@ -1,248 +1,105 @@
-/*Every Page*/
+/*Logo*/
 
-  /*Basic Styling*/
-    body{
-      font-family:Ubuntu Mono;
-      font-size:20px;
-      color: #f04d44;
-      background:#f2f2f2;
-    }
+  .logo{
+    padding-top:10px;
+    padding-bottom:2%;
+    z-index:999;
+  }
 
-    a{
-      text-decoration: none;
-      color: #f04d44;
-    }
+  .logo .mobileHeader{
+    -webkit-transition: opacity 0.75s; /* Safari */
+    transition: opacity 0.75s;
+  }
 
-    a:hover{
-      text-decoration: none;
-      background-color:#fdd80e;
-      color: #f04d44;
-      outline:0;
-    }
+  .logoAppear{
+    z-index:999;
+    position:fixed;
+    opacity:0;
 
-    a:focus{
-      outline:0;
-    }
+  }
 
-    .container-fluid{
-      margin:0;
-    }
+  .logoAppear .mobileHeader{
+    -webkit-transition: opacity 0.75s; /* Safari */
+    transition: opacity 0.75s;
+  }
 
-  /*Logo and add to cart non-index*/
-    .logoOther{
-      position:fixed;
-      z-index:999;
-    }
+/*Content*/
 
-    #addToCartOther{
-      display:none;
-    }
+  .image2{
+    margin-top:3em;
+  }
 
-  /*Column re-formatting*/
+  .shopnow{
+    writing-mode:tb-rl;
+    float:right;
+    margin-top:10em;
+  }
 
-    .col-lg-12{
-      padding-right:0px;
-      padding-left:0px;
-    }
+  .image3{
+    margin-top:5%;
+  }
 
-    .col-md-12{
-      padding-right:0px;
-      padding-left:0px;
-    }
+/*Hands*/
 
-    .col-sm-12{
-      padding-right:0px;
-      padding-left:0px;
-    }
+  .hands{
+    margin-top:5%;
+  }
 
-    .col-xs-12{
-      padding-right:0px;
-      padding-left:0px;
-    }
+/*Mailchimp footer*/
 
-  /*Menu*/
+  #mc_embed_signup{
+    margin-bottom:3%;
+  }
 
-    /*Desktop*/
+  .signup {
+    margin-top:-3%;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 23px;
+    color: #f04d44;
+  }
 
-    .deskNav{
-      -webkit-transition: opacity 0.75s; /* Safari */
-      transition: opacity 0.75;
-    }
+  .sign-up-form {
+    display: flex;
+    margin-top: 35px;
+    background:#f2f2f2;
+  }
 
-    .deskNavP{
-      z-index:999;
-      position:fixed;
-      top:35%;
-      left:20px;
-      opacity:1;
-    }
+  .sign-up-button {
+    border: none;
+    background: #f04d44;
+    color: #f2f2f2;
+    height: 35px;
+    margin: 10px 0;
+    width: 35px;
+    border-radius: 0;
+  }
 
-    .nav li a{
-      padding:0;
-      margin-bottom:18px;
-      line-height:1;
-    }
+  .emailAdd{
+    border: none;
+    border-bottom: 1px solid;
+    border-color:#f04d44;
+    font-size: 23px;
+    color:#f04d44;
+    font-family: 'Ubuntu Mono', monospace;
+    background:#f2f2f2;
+  }
 
-    .nav li a:focus{
-      background-color:#fdd80e;
-    }
+  .emailButt{
+    background:#f04d44;
+    color:#fdd80e;
+    border:none;
+    font-size:23px;
+    padding-left:5px;
+    padding-right:5px;
+    width:5%;
+    transform: translateY(-5px);
+  }
 
-    .nav li a:hover{
-      background-color:#fdd80e;
-      line-height:1;
-    }
-
-    .nav-pills li a{
-      border-radius:0;
-    }
-
-    /*Mobile*/
-
-    .phoneMenu{
-      border:none;
-      background:none;
-      padding:0;
-    }
-
-    .phoneMenu:hover{
-      border:none;
-      background:none;
-      padding:0;
-    }
-
-    .phoneMenu:active{
-      border:none;
-      background:none;
-      padding:0;
-    }
-
-    .menuDropdown{
-      width:100%;
-      height:400px;
-      background:#fdd80e;
-      z-index:998;
-      opacity:0;
-      position:fixed;
-      -webkit-transition: opacity 0.5s; /* Safari */
-      transition: opacity 0.5s;
-      -webkit-transition-timing-function: ease;
-      transition-timing-function: ease;
-    }
-
-    .dropdown-menu{
-      background-color: #fdd80e;
-      z-index:998;
-      margin:0;
-      border-radius:0;
-      border:none;
-    }
-
-    .dropdown-menu li a{
-      color:#f04d44;
-      font-size: 23px;
-    }
-
-    .dropdown-menu li a:hover{
-      color:#f685a1;
-      background-color: transparent;
-    }
-
-    .dropdown-menu li a:focus{
-      color:#f685a1;
-      background-color: transparent;
-    }
-
-    .menuCross{
-      margin-bottom:1.5%;
-      margin-top:1.5%;
-    }
-
-    .menuLogo{
-        margin-top:1.5%;
-        margin-bottom:1.5%;
-    }
-
-    .col-xs-1.menu{
-      padding:0;
-      margin-left:5%;
-    }
-
-    .col-sm-1.menu{
-      padding:0;
-      margin-left:5%;
-    }
-
-    .col-xs-8.logoMob{
-      margin-right:2.5%;
-      margin-left:2.5%;
-      margin-top:2.5%;
-    }
-
-    .col-sm-8.logoMob{
-      margin-right:2.5%;
-      margin-left:2.5%;
-      margin-top:2.5%;
-    }
-
-  /*Cart*/
-
-    /*Desktop*/
-    @media (min-width: 992px){
-
-      #cart-toggle{
-        position:fixed;
-        top:60%;
-      }
-
-      #cart-toggle .shopify-buy-frame--toggle:not(.is-sticky){
-        background-color:#f04d44;
-        border-radius:50%;
-        height:35px;
-        width:35px;
-        transform:translateY(8px);
-      }
-
-      #cart-toggle .shopify-buy__cart-toggle__count{
-        color:#fdd80e;
-        padding-left:11px;
-        margin-top:1px;
-      }
-
-      #cart-toggle p{
-        display:none;
-      }
-
-    }
-
-    /*Mobile*/
-    @media (max-width: 991px){
-      #cart-toggle{
-        padding:0;
-        margin-top:4%;
-        z-index:999;
-        position:fixed;
-        right:5%;
-      }
-
-      #cart-toggle .shopify-buy-frame--toggle:not(.is-sticky){
-        background-color:#f04d44;
-        border-radius:50%;
-        height:auto;
-        width:175%;
-        position:relative;
-        font-size:4.5vw;
-        text-align:center;
-      }
-
-      #cart-toggle .shopify-buy__cart-toggle__count{
-        color:#fdd80e;
-        padding-left:5px;
-      }
-
-      #cart-toggle p{
-        display:none;
-      }
-
-
-
-    }
+  #emailAddress {
+    flex-grow: 1;
+    border: none;
+    border-bottom: 1px solid;
+    border-color: #f04d44;
+    margin: 10px 2px 10px auto;
+    height: 35px;
+  }
