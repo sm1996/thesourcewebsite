@@ -3,7 +3,7 @@
 @media (min-width: 992px){
 
   .product-type{
-    margin-top:19%;
+    margin-top:3%;
     margin-left:17%;
   }
 
@@ -12,7 +12,7 @@
 @media (max-width: 991px){
 
   .product-type{
-    margin-top:15%;
+    margin-top:10%;
   }
 
 }
