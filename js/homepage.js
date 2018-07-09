@@ -9,9 +9,9 @@ $(window).scroll(function() {
 
   var logoTop = $('.logo').offset().top;
   if ($(window).width()>990){
-      var shopNowTop = $('.shopnow').offset().top;
+      var shopNowTop = $('.prodAppear').offset().top;
   }else{
-      var shopNowTop = $('.shopNowMob').offset().top;
+      var shopNowTop = $('.prodAppearMob').offset().top;
   }
   var currentScroll = $(window).scrollTop();
     if (currentScroll >= logoTop) {
