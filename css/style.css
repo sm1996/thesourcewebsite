@@ -222,14 +222,14 @@
         margin-top:4%;
         z-index:999;
         position:fixed;
-        right:5%;
+        right:8%;
       }
 
       #cart-toggle .shopify-buy-frame--toggle:not(.is-sticky){
         background-color:#f04d44;
         border-radius:50%;
         height:auto;
-        width:175%;
+        width:150%;
         position:relative;
         font-size:4.5vw;
         text-align:center;
