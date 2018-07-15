@@ -1,0 +1,30 @@
+.about{
+  border-left-width: 1.5px;
+  border-left-color:#d3d3d3;
+  border-left-style:solid;
+  height:100%;
+}
+
+.imageCap{
+
+}
+
+.rickshaw{
+  float:right;
+  margin-top:75px;
+  right:0px;
+  padding-left:15px;
+  padding-bottom:30px;
+}
+
+.isTable{
+  display:table;
+}
+
+.isTableCell{
+  margin-top:18%;
+  display: table-cell;
+  border-left-width: 1.5px;
+  border-left-color:#d3d3d3;
+  border-left-style:solid;
+}
