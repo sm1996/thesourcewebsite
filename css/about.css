@@ -2,29 +2,32 @@
   border-left-width: 1.5px;
   border-left-color:#d3d3d3;
   border-left-style:solid;
-  height:100%;
+  border-right-width: 1.5px;
+  border-right-color:#d3d3d3;
+  border-right-style:solid;
 }
 
-.imageCap{
-
-}
 
 .rickshaw{
   float:right;
   margin-top:75px;
   right:0px;
-  padding-left:15px;
-  padding-bottom:30px;
 }
 
 .isTable{
   display:table;
 }
 
-.isTableCell{
+.pushDown{
   margin-top:18%;
-  display: table-cell;
-  border-left-width: 1.5px;
-  border-left-color:#d3d3d3;
-  border-left-style:solid;
+}
+
+.row{
+  overflow:hidden;
+  margin-bottom:40px;
+}
+
+[class*="col-"]{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
 }
