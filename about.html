@@ -13,7 +13,7 @@
 
       <title>The Source</title>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-      <link rel="stylesheet" href="css/index.css">  
+      <link rel="stylesheet" href="css/index.css">
       <link rel="stylesheet" href="css/style.css">
       <link rel="stylesheet" href="css/about.css">
       <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
@@ -42,7 +42,7 @@
       <div class="container-fluid">
         <!--mobile header-->
         <div class="row logoOther">
-          <a href="index.html"><img class="img-responsive col-lg-12 col-md-12 hidden-sm hidden-xs" src="images/logo_desktop.png"></a>
+          <a href="index.html"><img class="img-responsive col-lg-12 col-md-12 hidden-sm hidden-xs" src="images/logo_desktop_nontrans.png"></a>
           <div class="mobileHeader">
             <div class="dropdown">
               <button class = "menu phoneMenu img-responsive dropdown-toggle hidden-lg hidden-md col-sm-1 col-xs-1" type="button" data-toggle="dropdown">
@@ -66,7 +66,7 @@
         <div class="row table">
           <div class = "col-lg-2 col-md-2 hidden-sm hidden-xs">
             <nav>
-              <ul class="nav nav-pills nav-stacked span1 deskNavP">
+              <ul class="nav nav-pills nav-stacked span1 deskNavP deskNav">
                 <li> <a href="productpage.html"> Shop </a></li>
                 <li> <a href="https://from-thesource.tumblr.com"> Visual Diary </a> </li>
                 <li> <a href="about.html"> About Us </a> </li>
@@ -78,7 +78,7 @@
         </div>
 
         <!--cart-->
-        <div id="cart-toggle"></div>
+        <div id="cart-toggle" class="deskNav"></div>
 
         <!--shop button-->
         <div id="addToCartOther">
@@ -88,7 +88,7 @@
         <!--content------------------------------------------------------------>
 
         <div class="row">
-          <p class="about col-lg-offset-2 col-lg-3 col-md-offset-2 col-md-3 pushDown makeColumn">
+          <p class="about mobile col-lg-offset-2 col-lg-3 col-md-offset-2 col-md-3 col-sm-12 col-xs-12 pushDown makeColumn">
             <b>This is who we are.</b>
             <br/>
             <br/>
@@ -103,7 +103,7 @@
             <br/>
             The artisans are paid fairly for their artwork and given a share of the profit from future sales.
           </p>
-          <div class="col-lg-7 col-md-7 pushDown makeColumn">
+          <div class="col-lg-7 col-md-7 hidden-sm hidden-xs pushDown makeColumn">
             <p>
               Rickshaw mistry putting the finishing
               <br/>
@@ -113,11 +113,22 @@
             </img>
           </div>
         </div>
-      
+      <div class="row">
+        <div class="mobile hidden-lg hidden-md col-sm-12 col-xs-12">
+          <img class="rickshaw img-responsive" src="images/Rickshaw.jpg">
+          </img>
+          <p>
+            Rickshaw mistry putting the finishing touches on a Rickshaw.
+          </p>
+        </div>
+      </div>
+
+        <!--end of content----------------------------------------------------->
+
         <!--hands-->
         <div class="row">
-          <div class="hands img-responsive col-lg-12 col-md-12 hidden-sm hidden-xs">
-            <img src="images/hands_desktop_enlarged.png" class="img-responsive">
+          <div class="handsAbout triggerAppear img-responsive col-lg-12 col-md-12 hidden-sm hidden-xs">
+            <img src="images/hands_desktop_long.png" class="img-responsive">
           </div>
           <div class="img-responsive hidden-lg hidden-md col-sm-12 col-xs-12">
             <img src="images/hands_mobile.png" class="img-responsive">
@@ -126,7 +137,7 @@
 
         <!--signup para-->
         <div class="row">
-          <p class="signup col-lg-offset-1 col-lg-5 col-md-offset-1 col-md-5 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10">Sign up for updates on new products and events lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+          <p class="signup col-lg-5 col-md-5 col-sm-12 col-xs-12">Sign up for updates on new products and events lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
         </div>
 
         <!-- Begin MailChimp Signup Form -->
@@ -134,7 +145,7 @@
             <form action="https://shopthesource.us18.list-manage.com/subscribe/post?u=2fe858924f314491973a7caf2&amp;id=237a7b820d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
               <div id="mc_embed_signup_scroll">
                 <div class="mc-field-group">
-                  <input type="email" placeholder="Your Email Address" value="" name="EMAIL" class="email emailAdd col-lg-offset-1 col-lg-4 col-md-offset-1 col-md-4 col-sm-offset-1 col-sm-9 col-xs-offset-1 col-xs-9" id="mce-EMAIL">
+                  <input type="email" placeholder="Your Email Address" value="" name="EMAIL" class="email emailAdd col-lg-4 col-md-4 col-sm-11 col-xs-11" id="mce-EMAIL">
                   <div class="clear">
                     <input type="submit" value=">" name="subscribe" id="mc-embedded-subscribe" class="button emailButt">
                   </div>
@@ -156,8 +167,6 @@
         <script src="https://apps.elfsight.com/p/platform.js" defer></script>
         <div class="elfsight-app-f9c17a32-882f-4369-b702-e046ead504a8"></div>
 
-
-        <!--end of content----------------------------------------------------->
 
       <!--shopify cart script-->
       </div>
@@ -363,5 +372,6 @@
 
       <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script src="js/bootstrap.js"></script>
+      <script src="js/about.js"></script>
     </body>
   </html>

@@ -41,7 +41,7 @@
       <div class="container-fluid">
         <!--mobile header-->
         <div class="row logoOther">
-          <a href="index.html"><img class="img-responsive col-lg-12 col-md-12 hidden-sm hidden-xs" src="images/logo_desktop.png"></a>
+          <a href="index.html"><img class="img-responsive col-lg-12 col-md-12 hidden-sm hidden-xs" src="images/logo_desktop_nontrans.png"></a>
           <div class="mobileHeader">
             <div class="dropdown">
               <button class = "menu phoneMenu img-responsive dropdown-toggle hidden-lg hidden-md col-sm-1 col-xs-1" type="button" data-toggle="dropdown">
@@ -65,7 +65,7 @@
         <div class="row table">
           <div class = "col-lg-2 col-md-2 hidden-sm hidden-xs">
             <nav>
-              <ul class="nav nav-pills nav-stacked span1 deskNavP">
+              <ul class="nav nav-pills nav-stacked span1 deskNavP deskNav">
                 <li> <a href="productpage.html"> Shop </a></li>
                 <li> <a href="https://from-thesource.tumblr.com"> Visual Diary </a> </li>
                 <li> <a href="about.html"> About Us </a> </li>
@@ -77,7 +77,7 @@
         </div>
 
         <!--cart-->
-        <div id="cart-toggle"></div>
+        <div id="cart-toggle" class="deskNav"></div>
 
         <!--shop button-->
         <div id="addToCartOther">
@@ -87,10 +87,25 @@
         <!--content------------------------------------------------------------>
 
         <div class="row">
-          <p class="border col-lg-offset-2 col-lg-3 col-md-offset-2 col-md-3 pushDown">
-            <b>Dispatch</b>
+          <p class="border mobile makeColumn col-lg-offset-2 col-lg-3 col-md-offset-2 col-md-3 col-sm-12 col-xs-12 pushDown">
+            <b>Dispatch Times</b>
           </p>
-          <p class="col-lg-6 col-md-6 pushDown">
+          <p class="makeColumn col-lg-6 col-md-6 hidden-sm hidden-xs pushDown">
+            Due to the handmade nature of some of our products, the dispatch time can vary.
+            <br/>
+            <br/>
+            The t-shirts will be shipped within5 days of the order being placed.
+            <br/>
+            <br/>
+            The raincoats, which are handpainted, can take up to 8 weeks after order.
+            <br/>
+            <br/>
+            We will keep you updated at every stage of the process.
+            <br/>
+            <br/>
+            <br/>
+          </p>
+          <p class="mobile makeColumn hidden-lg hidden-md col-sm-12 col-xs-12">
             Due to the handmade nature of some of our products, the dispatch time can vary.
             <br/>
             <br/>
@@ -108,29 +123,114 @@
         </div>
 
         <div class="row">
-          <p class="border col-lg-offset-2 col-lg-3 col-md-offset-2 col-md-3">
-            <b>Dispatch</b>
+          <p class="border mobile makeColumn col-lg-offset-2 col-lg-3 col-md-offset-2 col-md-3 col-sm-12 col-xs-12">
+            <b>Shipping</b>
           </p>
-          <p class="col-lg-6 col-md-6">
-            Due to the handmade nature of some of our products, the dispatch time can vary.
+          <p class="mobile makeColumn col-lg-6 col-md-6">
+            We ship worldwide.
             <br/>
             <br/>
-            The t-shirts will be shipped within5 days of the order being placed.
+            UK:£5
             <br/>
+            EU:£15
             <br/>
-            The raincoats, which are handpainted, can take up to 8 weeks after order.
+            Rest of the World: £20
             <br/>
-            <br/>
-            We will keep you updated at every stage of the process.
             <br/>
             <br/>
           </p>
-      </div>
+        </div>
 
+        <div class="row">
+          <p class="border mobile makeColumn col-lg-offset-2 col-lg-3 col-md-offset-2 col-md-3">
+            <b>Transit Times</b>
+          </p>
+          <p class="mobile makeColumn col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            Your order will be processed & shipped 5 working days after payment.
+            <br/>
+            <br/>
+            UK:7 days
+            <br/>
+            International: 7-21 days
+            <br/>
+            <br/>
+            A tracking number will e sent once the package has been dispatched.
+            <br/>
+            <br/>
+            <br/>
+          </p>
+        </div>
+
+        <div class="row">
+          <p class="border mobile makeColumn col-lg-offset-2 col-lg-3 col-md-offset-2 col-md-3 col-sm-12 col-xs-12">
+            <b>Returns & Exchanges</b>
+          </p>
+          <p class="mobile makeColumn col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            We are currently unable to accept returns.
+            <br/>
+            <br/>
+            We are glad o accept any exchanges for items that are damaged or are not as described*. Please email us within 10 days of delivery and we may issue an exchange within 10 days, upon arrival.
+            <br/>
+            <br/>
+            Items must be return in unused and original condition, with tags, packaging and reeipt included. You may ship using any method of your choice at your expense. We are not responsible for any taxes incurred or lost/stolen items.
+            <br/>
+            <br/>
+            A tracking number will e sent once the package has been dispatched.
+            <br/>
+            <br/>
+            <br/>
+          </p>
+        </div>
         <!--end of content----------------------------------------------------->
+
+        <!--hands-->
+        <div class="row">
+          <div class="handsFAQ triggerAppear img-responsive col-lg-12 col-md-12 hidden-sm hidden-xs">
+            <img src="images/hands_desktop_long.png" class="img-responsive">
+          </div>
+          <div class="img-responsive hidden-lg hidden-md col-sm-12 col-xs-12">
+            <img src="images/hands_mobile.png" class="img-responsive">
+          </div>
+        </div>
+
+        <!--signup para-->
+        <div class="row">
+          <p class="signup col-lg-5 col-md-5 col-sm-12 col-xs-12">If you have any further queries, drop us a line below and we will get back to you within 1 working day.</p>
+        </div>
+
+        <!-- Begin MailChimp Signup Form -->
+        <div id="mc_embed_signup">
+          <form action="https://shopthesource.us18.list-manage.com/subscribe/post?u=2fe858924f314491973a7caf2&amp;id=0ae735f555" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+               <div class="mc-field-group">
+        	        <label for="mce-EMAIL">Email Address </label>
+        	        <input type="email" value="" name="EMAIL" class="email emailAdd required email" id="mce-EMAIL">
+                </div>
+                <div class="mc-field-group">
+        	         <label for="mce-FNAME">Name</label>
+        	          <input type="text" value="" name="FNAME" class="email emailAdd required" id="mce-FNAME">
+                </div>
+                <div class="mc-field-group">
+                	<label for="mce-MMERGE3">What can we help you with?</label>
+                	<textarea id="mce-MMERGE3" value="" name="MMERGE3" class="email emailAdd longAns required" ></textarea>
+                </div>
+              	<div id="mce-responses" class="clear">
+              		<div class="response" id="mce-error-response" style="display:none"></div>
+              		<div class="response" id="mce-success-response" style="display:none"></div>
+              	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_2fe858924f314491973a7caf2_0ae735f555" tabindex="-1" value=""></div>
+              <div class="clear"><input type="submit" value=">" name="subscribe" id="mc-embedded-subscribe" class="button emailButt"></div>
+            </div>
+          </form>
+        </div>
+
+        <!--End mc_embed_signup-->
+
+
 
       <!--shopify cart script-->
       </div>
+
       <script type="text/javascript">
       /*<![CDATA[*/
 
@@ -333,5 +433,6 @@
 
       <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script src="js/bootstrap.js"></script>
+      <script src="js/faq.js"></script>
     </body>
   </html>
