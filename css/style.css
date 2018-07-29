@@ -193,7 +193,7 @@
 
       #cart-toggle{
         position:fixed;
-        bottom:35%;
+        bottom:30%;
       }
 
       #cart-toggle .shopify-buy-frame--toggle:not(.is-sticky){
