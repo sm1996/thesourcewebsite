@@ -1,21 +1,83 @@
-.border{
-  border-left-width: 1.5px;
-  border-left-color:#d3d3d3;
-  border-left-style:solid;
-  border-right-width: 1.5px;
-  border-right-color:#d3d3d3;
-  border-right-style:solid;
-}
+@media (min-width: 992px){
+  .border{
+    border-left-width: 1.5px;
+    border-left-color:#d3d3d3;
+    border-left-style:solid;
+    border-right-width: 1.5px;
+    border-right-color:#d3d3d3;
+    border-right-style:solid;
+  }
 
-.pushDown{
-  margin-top:18%;
-}
+  .pushDown{
+    margin-top:18%;
+  }
 
-.row{
-  overflow:hidden;
-}
+  .row{
+    overflow:hidden;
+  }
 
-[class*="col-"]{
+  .makeColumn{
     margin-bottom: -99999px;
     padding-bottom: 99999px;
+    padding-left:20px;
+  }
+
+  .handsFAQ{
+    position:relative;
+    margin-top:-40%;
+  }
+
+  .emailAdd{
+    margin-right:59%;
+    width:41%;
+    margin-bottom:20px;
+  }
+
+  .emailButt{
+    width:41%;
+  }
+
+  #cart-toggle{
+    opacity:1;
+  }
+}
+
+@media (max-width: 991px){
+
+  .pushDown{
+    margin-top:25%;
+  }
+
+  #cart-toggle{
+    margin-top:0px;
+  }
+
+  .logoOther{
+    height: 200px;
+    background: red;
+    background: linear-gradient(to bottom, rgba(243,243,243,1), rgba(243,243,243,0));
+
+  }
+
+  .mobile{
+    padding-left:20px;
+    padding-right:20px;
+  }
+
+  .emailAdd{
+    width:100%;
+    margin-bottom:20px;
+
+  }
+
+  .emailButt{
+    width:100%;
+
+  }
+
+  .signup{
+    padding-right:20px;
+    padding-left:20px;
+  }
+
 }
