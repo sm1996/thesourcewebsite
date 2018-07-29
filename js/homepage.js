@@ -1,3 +1,4 @@
+
 $(window).scroll(function() {
   $('.logoAppear').css({
     opacity:'0'
@@ -9,9 +10,9 @@ $(window).scroll(function() {
 
   var logoTop = $('.logo').offset().top;
   if ($(window).width()>990){
-      var shopNowTop = $('.prodAppear').offset().top;
+      var triggerTop = $('.prodAppear').offset().top;
   }else{
-      var shopNowTop = $('.prodAppearMob').offset().top;
+      var triggerTop = $('.prodAppearMob').offset().top;
   }
   var currentScroll = $(window).scrollTop();
     if (currentScroll >= logoTop) {
@@ -31,7 +32,7 @@ $(window).scroll(function() {
       });
     }
 
-    if (currentScroll >= logoTop && currentScroll<=shopNowTop) {
+    if (currentScroll >= logoTop && currentScroll<=triggerTop) {
 
         $('.deskNav').css({
           opacity:'1'
