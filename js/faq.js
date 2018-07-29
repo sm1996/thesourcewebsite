@@ -9,7 +9,7 @@ $(window).scroll(function() {
     }
     else{
       $('.deskNav').css({
-        display:'none'
+        opacity:'0'
       });
     }
   }
