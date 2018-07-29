@@ -40,10 +40,10 @@ $(window).scroll(function() {
 
     } else {
         $('.deskNav').css({
-          opacity:'0'
+          display:'none'
         });
         $('.logoAppear').css({
-          opacity:'0'
+          display:'none'
         });
     }
 });
