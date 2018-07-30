@@ -46,7 +46,8 @@
   }
 
   #cart-toggle{
-    margin-top:0px;
+    margin-top:-1%;
+    opacity:1;
   }
 
   .logoOther{
