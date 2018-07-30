@@ -164,6 +164,14 @@
       background-color: transparent;
     }
 
+    .cross{
+      top:1.5%;
+      position:fixed;
+      left:0;
+      height:50px;
+      width:auto;
+    }
+
     .menuCross{
       margin-bottom:1.5%;
       margin-top:1.5%;
