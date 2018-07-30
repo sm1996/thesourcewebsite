@@ -131,9 +131,15 @@
       -webkit-transition-timing-function: ease;
       transition-timing-function: ease;
     }
+    
+     .open>.dropdown-menu{
+      height:100vh;
+      background: url(../images/menu_background.png);
+      background-repeat:no-repeat;
+      background-size: 100% 100%;
+    }
 
     .dropdown-menu{
-      background-color: #fdd80e;
       z-index:998;
       margin:0;
       border-radius:0;
@@ -143,6 +149,8 @@
     .dropdown-menu li a{
       color:#f04d44;
       font-size: 23px;
+      text-align:center;
+      font-weight: bold;
     }
 
     .dropdown-menu li a:hover{
