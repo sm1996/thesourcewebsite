@@ -148,9 +148,10 @@
 
     .dropdown-menu li a{
       color:#f04d44;
-      font-size: 23px;
+      font-size: 24px;
       text-align:center;
       font-weight: bold;
+      margin-top:15px;
     }
 
     .dropdown-menu li a:hover{
@@ -170,7 +171,7 @@
 
     .menuLogo{
         margin-top:1.5%;
-        margin-bottom:1.5%;
+        margin-bottom:30px;
     }
 
     .col-xs-1.menu{
