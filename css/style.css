@@ -224,7 +224,6 @@
         z-index:999;
         position:fixed;
         right:7%;
-        opacity:1;
       }
 
       #cart-toggle .shopify-buy-frame--toggle:not(.is-sticky){
