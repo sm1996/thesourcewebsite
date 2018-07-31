@@ -36,6 +36,11 @@
   #cart-toggle{
     opacity:1;
   }
+  
+  .who{
+    display: none;
+  }
+
 
 }
 
@@ -60,6 +65,17 @@
   .mobile{
     padding-left:20px;
     padding-right:20px;
+  }
+  
+  .who{
+    font-size:45px;
+    text-transform: uppercase;
+    text-align: justify;
+    font-weight: bold;
+  }
+
+  .whod{
+    display:none;
   }
 
 }
