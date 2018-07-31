@@ -165,11 +165,11 @@
     }
 
     .cross{
-      top:1.5%;
       position:fixed;
       left:0;
       height:50px;
       width:auto;
+      padding:0;
     }
 
     .menuCross{
@@ -196,12 +196,18 @@
       margin-right:2.5%;
       margin-left:2.5%;
       margin-top:2.5%;
+      z-index:999;
     }
 
     .col-sm-8.logoMob{
       margin-right:2.5%;
       margin-left:2.5%;
       margin-top:2.5%;
+      z-index:999;
+    }
+
+    .firstItem{
+      margin-top:70px;
     }
 
   /*Cart*/
