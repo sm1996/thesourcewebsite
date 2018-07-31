@@ -1,0 +1,44 @@
+@media (min-width: 992px){
+
+  .takemeback{
+    font-size:30px;
+    padding:10px 20px;
+    border-width:3px;
+    border-color:#f04d44;
+    border-style:solid;
+    position:fixed;
+    z-index:700;
+    bottom:120px;
+    text-align: center;
+    background:transparent;
+  }
+
+  .takemeback:hover{
+    background:#f04d44;
+    color:#fdd80e;
+  }
+
+}
+
+@media (max-width: 991px){
+
+  .takemeback{
+    font-size:24px;
+    padding:10px 20px;
+    border-width:3px;
+    border-color:#f04d44;
+    border-style:solid;
+    position:fixed;
+    z-index:700;
+    bottom:120px;
+    text-align: center;
+    background:transparent;
+    margin-left:10px;
+  }
+
+  .takemeback:hover{
+    background:#f04d44;
+    color:#fdd80e;
+  }
+
+}
