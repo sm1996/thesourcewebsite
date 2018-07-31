@@ -207,6 +207,32 @@
       margin-top:70px;
     }
 
+    .dropdown-menu li{
+      color:#f04d44;
+      font-size: 25px;
+      text-align:center;
+      font-weight: bold;
+      text-transform: uppercase;
+      padding: 3px 20px;
+    }
+
+    .menuEmail #mce-EMAIL{
+      background: transparent;
+      color:#f04d44;
+      border:none;
+      border-bottom-style:solid;
+      border-bottom-width: 3px;
+      border-bottom-color:#f04d44;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    .menuEmail #mc-embedded-subscribe{
+      background:transparent;
+      border:none;
+      text-transform: none;
+    }
+
   /*Cart*/
 
     /*Desktop*/
