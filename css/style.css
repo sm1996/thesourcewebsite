@@ -120,9 +120,6 @@
     }
 
     .menuDropdown{
-      width:100%;
-      height:400px;
-      background:#fdd80e;
       z-index:998;
       opacity:0;
       position:fixed;
@@ -152,6 +149,9 @@
       text-align:center;
       font-weight: bold;
       margin-top:15px;
+      -webkit-transition: opacity 0.75s; /* Safari */
+      transition: opacity 0.75;
+      opacity:0;
     }
 
     .dropdown-menu li a:hover{
@@ -170,6 +170,9 @@
       height:50px;
       width:auto;
       padding:0;
+      -webkit-transition: opacity 0.75s; /* Safari */
+      transition: opacity 0.75;
+      opacity:0;
     }
 
     .menuCross{
