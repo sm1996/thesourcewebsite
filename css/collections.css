@@ -3,8 +3,17 @@
 @media (min-width: 992px){
 
   .product-type{
-    margin-top:3%;
+    margin-top:20%;
     margin-left:17%;
+  }
+
+  .handsAbout{
+    position:relative;
+    margin-top:-40%;
+  }
+
+  .deskNav{
+    opacity:1;
   }
 
 }
@@ -12,7 +21,12 @@
 @media (max-width: 991px){
 
   .product-type{
-    margin-top:10%;
+    margin-top:13%;
+  }
+
+  .handsAbout{
+    position:relative;
+    margin-top:-40%;
   }
 
 }
