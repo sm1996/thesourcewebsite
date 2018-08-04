@@ -28,5 +28,9 @@
     position:relative;
     margin-top:-40%;
   }
+  
+  .deskNav{
+    opacity:1;
+  }
 
 }
