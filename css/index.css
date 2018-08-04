@@ -22,3 +22,21 @@
     -webkit-transition: opacity 0.75s; /* Safari */
     transition: opacity 0.75s;
   }
+
+/*Collections*/
+@media (min-width: 992px){
+
+  .product-type{
+    margin-top:20%;
+    margin-left:17%;
+  }
+
+}
+
+@media (max-width: 991px){
+
+  .product-type{
+    margin-top:13%;
+  }
+ 
+}
