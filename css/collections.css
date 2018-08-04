@@ -15,6 +15,10 @@
   #cart-toggle{
     opacity:1;
   }
+  
+  .deskNav{
+    opacity:1;
+  }
 
 }
 
@@ -31,6 +35,10 @@
   
   #cart-toggle{
     margin-top:-1%;
+    opacity:1;
+  }
+  
+  .deskNav{
     opacity:1;
   }
 
