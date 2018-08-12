@@ -4,12 +4,14 @@ $(window).scroll(function() {
   if ($(window).width()>990){
     if (currentScroll < triggerTop) {
       $('.deskNav').css({
-        opacity:'1'
+        opacity:'1',
+        display:'block'
       });
     }
     else{
       $('.deskNav').css({
-        opacity:'0'
+        opacity:'0',
+        display:'none'
       });
     }
   }
