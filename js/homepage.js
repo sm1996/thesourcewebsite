@@ -1,7 +1,8 @@
 
 $(window).scroll(function() {
   $('.logoAppear').css({
-    opacity:'0'
+    opacity:'0',
+    pointer-events:'none'
   });
 
   $('.logo').css({
@@ -17,7 +18,8 @@ $(window).scroll(function() {
   var currentScroll = $(window).scrollTop();
     if (currentScroll >= logoTop) {
       $('.logo').css({
-        opacity:'0'
+        opacity:'0',
+        pointer-events:'none'
       });
       $('.logoAppear').css({
         opacity:'1'
@@ -25,7 +27,8 @@ $(window).scroll(function() {
     }
     else{
       $('.logoAppear').css({
-        opacity:'0'
+        opacity:'0',
+        pointer-events:'none'
       });
       $('.logo').css({
         opacity:'1'
@@ -40,10 +43,12 @@ $(window).scroll(function() {
 
     } else {
         $('.deskNav').css({
-          opacity:'0'
+          opacity:'0',
+          pointer-events:'none'
         });
         $('.logoAppear').css({
-          opacity:'0'
+          opacity:'0',
+          pointer-events:'none'
         });
     }
 });
