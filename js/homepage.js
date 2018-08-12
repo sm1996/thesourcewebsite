@@ -1,11 +1,13 @@
 
 $(window).scroll(function() {
   $('.logoAppear').css({
-    opacity:'0'
+    opacity:'0',
+    display:'none'
   });
 
   $('.logo').css({
-    opacity:'1'
+    opacity:'1',
+    display:'block'
   });
 
   var logoTop = $('.logo').offset().top;
