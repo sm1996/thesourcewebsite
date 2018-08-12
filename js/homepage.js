@@ -17,33 +17,40 @@ $(window).scroll(function() {
   var currentScroll = $(window).scrollTop();
     if (currentScroll >= logoTop) {
       $('.logo').css({
-        opacity:'0'
+        opacity:'0',
+        display:'none'
       });
       $('.logoAppear').css({
-        opacity:'1'
+        opacity:'1',
+        display:'block'
       });
     }
     else{
       $('.logoAppear').css({
-        opacity:'0'
+        opacity:'0',
+        display:'none'
       });
       $('.logo').css({
-        opacity:'1'
+        opacity:'1',
+        display:'block'
       });
     }
 
     if (currentScroll >= logoTop && currentScroll<=triggerTop) {
 
         $('.deskNav').css({
-          opacity:'1'
+          opacity:'1',
+          display:'block'
         });
 
     } else {
         $('.deskNav').css({
+          opacity:'0',
           display:'none'
         });
         $('.logoAppear').css({
-          opacity:'0'
+          opacity:'0',
+          display:'none'
         });
     }
 });
