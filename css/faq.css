@@ -26,6 +26,7 @@
   .handsFAQ{
     position:relative;
     margin-top:-40%;
+    margin-bottom:50px;
   }
 
   .emailAdd{
@@ -89,4 +90,8 @@
     letter-spacing: -1.5px;
   }
 
+}
+
+.mailtolink{
+  text-decoration: underline;
 }
