@@ -2,18 +2,92 @@
 
   @media (min-width: 992px){
 
+    .prodInfo{
+      position:fixed;
+      width:30%;
+      top:30%;
+      left:55%;
+    }
+
+    .sizeSelectors{
+      display:inline;
+      padding:none;
+      position:relative;
+      width: 100%;
+      align-items: center;
+    }
+
+    .sizeSelectors button{
+      border:none;
+      background:transparent;
+      vertical-align: middle;
+      margin-left:0px;
+      margin-right:5px;
+    }
+
+    .sizeSelectors button:active{
+      border:none;
+    }
+
+    .sizeSelectors button:focus{
+      outline:0;
+    }
+
+    .size p{
+      border-radius:50%;
+      border-style:solid;
+      border-width:3px;
+      border-color:#f04d44;
+      background:transparent;
+      color:#fo4d44;
+      padding:10px;
+      width:2.5em;
+      height:2.5em;
+      text-align:center;
+    }
+
+    .size p:focus{
+      background:#f04d44;
+      color:#fdd80e;
+    }
+
+    .size p:hover{
+      background:#f04d44;
+      color:#fdd80e;
+    }
+
+    .xs{
+      display:none;
+    }
+
+    .s{
+      display: none;
+    }
+
+    .m{
+      display:none;
+    }
+
+    .l{
+      display: none;
+    }
+
+    .xl{
+      display:none;
+    }
+
     #addToCart button{
       background-color:#f2f2f2;
-      position:fixed;
-      bottom:30%;
-      padding-top:5px;
-      padding-bottom:5px;
-      font-size:16px;
-      width:25%;
+      position: relative;
+      padding-top:10px;
+      padding-bottom:10px;
+      font-size:20px;
+      width:100%;
       border-style:solid;
       border-color:#f04d44;
       border-width:3px;
-      left:60%;
+      margin-top:15px;
+      display: inherit;
     }
 
     #addToCart button:hover{
@@ -29,6 +103,16 @@
     #addToCart button:active{
       background-color: #f04d44;
       color:#fdd80e;
+    }
+
+    .prodTitle{
+      font-size:26px;
+      font-weight: bold;
+    }
+
+    .prodPrice{
+      font-size:26px;
+      font-weight: bold;
     }
 
   }
@@ -37,35 +121,135 @@
 
   @media (max-width: 991px){
 
-    #addToCart button{
-      border-style: solid;
-      border-width: medium;
-      border-color: #f04d44;
-      background-color:#f2f2f2;
+    .prodInfo{
+      display:none;
       position:fixed;
-      bottom:10px;
-      padding-top:5px;
-      padding-bottom:5px;
-      font-size:16px;
-      width:90%;
-      left:5%;
-      z-index:999;
+      bottom:0;
+      left:0;
+      width:100%;
+      height:auto;
+      background:#f2f2f2;
+      border-top-style: solid;
+      border-top-width:3px;
+      border-top-color:#f04d44;
+      text-align:left;
+      z-index:100;
+      font-size: 20px;
+      margin:0;
+      padding-bottom:30px;
     }
 
-    #addToCart button:hover{
-      background-color: #f04d44;
-      color:#fdd80e;
+    #addToCart button{
+      background:transparent;
+      border:none;
+      display:inherit;
+      margin-top:20px;
+      width:100%;
+      text-align:left;
     }
 
-    #addToCart button:active{
-      background-color: #f04d44;
-      color:#fdd80e
+    .xs button{
+      visibility: hidden;
     }
 
-    #addToCart button:focus{
-      background-color: #f04d44;
-      color:#fdd80e
+    .xs button::before{
+      content:"XS";
+      visibility:visible;
+      margin-left:49%;
+      width:100%;
     }
+
+    .s button{
+      visibility: hidden;
+    }
+
+    .s button::before{
+      content:"S";
+      visibility:visible;
+      margin-left:49%;
+      width:100%;
+    }
+
+    .m button{
+      visibility: hidden;
+    }
+
+    .m button::before{
+      content:"M";
+      visibility:visible;
+      margin-left:49%;
+      width:100%;
+    }
+
+    .l button{
+      visibility: hidden;
+    }
+
+    .l button::before{
+      content:"L";
+      visibility:visible;
+      margin-left:49%;
+      width:100%;
+    }
+
+    .xl button{
+      visibility: hidden;
+    }
+
+    .xl button::before{
+      content:"XL";
+      visibility:visible;
+      margin-left:49%;
+      width:100%;
+    }
+
+    .prodTitle{
+      font-size:20px;
+      font-weight: bold;
+    }
+
+    .prodPrice{
+      font-size:20px;
+      font-weight: bold;
+    }
+
+    .mobSize button {
+      position: fixed;
+      bottom: 15px;
+      width: 90%;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      left: 5%;
+      outline: none;
+      background: #f2f2f2;
+      border-width: 3px;
+      border-color: #f04d44;
+      border-style: solid;
+      z-index: 99;
+    }
+
+    .mobSize button p{
+      margin:0;
+    }
+
+    .selectSize{
+      display:inherit;
+      text-align:center;
+      margin:10px 0;
+    }
+
+    .sizeHeader{
+      border-bottom-style:solid;
+      border-bottom-width:3px;
+      border-bottom-color:#f04d44;
+    }
+
+    .closeSize button{
+      background: transparent;
+      border:none;
+      margin:10px 0;
+    }
+
 
   }
 
@@ -75,33 +259,18 @@
   .descDesk{
     margin-left:0;
     margin-top:0;
-    margin-bottom:0;
+    margin-bottom:20px;
     margin-right:0;
     padding-left:0;
     padding-right:0;
     padding-top:0;
-  }
-
-  .descDeskPos{
-    position:fixed;
-    bottom:40%;
-    font-size: 16px;
-    padding-bottom:0;
-    width:25%;
-    left:60%;
+    width:100%;
+    position: relative;
   }
 
   .descMob{
     font-size:16px;
     margin-top:1em;
-  }
-
-  .prodTitle{
-    font-size:20px;
-  }
-
-  .prodPrice{
-    font-size:18px;
   }
 
 /*Product Images*/
