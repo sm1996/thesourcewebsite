@@ -128,7 +128,7 @@
       -webkit-transition-timing-function: ease;
       transition-timing-function: ease;
     }
-    
+
      .open>.dropdown-menu{
       height:100vh;
       background: url(../images/menu_background.png);
@@ -241,6 +241,7 @@
       #cart-toggle{
         position:fixed;
         bottom:30%;
+        cursor:pointer;
       }
 
       #cart-toggle .shopify-buy-frame--toggle:not(.is-sticky){

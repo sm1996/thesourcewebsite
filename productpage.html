@@ -93,19 +93,64 @@
         <!--cart-->
         <div id="cart-toggle"></div>
 
-        <!--shop button-->
-        <div id="addToCart">
-            <div id='product-component-076f2c430e1'></div>
-        </div>
+        <!--prod description-->
+        <div class="prodInfo">
+          <div>
+            <p class="prodTitle hidden-sm hidden-xs">Raincoat</p>
+            <p class="prodPrice hidden-sm hidden-xs">£89</p>
+            <p class="descDesk hidden-sm hidden-xs">Lorem ipsum dolor sit amet, conr adipiscing elit. Curabitur at lacinia augue. Vivamus ullamcorper facilisis tincidunt. </p>
+          </div>
+        <!-- size selectors-->
 
-        <!--product images-->
-        <div class="row">
-          <div class="descDeskPos hidden-sm hidden-xs">
-            <p class="prodTitle">Raincoat</p>
-            <p class="prodPrice">£89</p>
-            <p class="descDesk">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at lacinia augue. Vivamus ullamcorper facilisis tincidunt. </p>
+          <div class="sizeSelectors hidden-sm hidden-xs">
+            <button class="size" id="xs" type="button" onClick="addSize()" >
+                <p class="xssize"> XS </p>
+            </button>
+            <button class="size" id="s" type="button">
+                <p> S </p>
+            </button>
+            <button class="size" id="m" type="button" onClick="addSizeM()">
+                <p class="msize"> M </p>
+            </button>
+            <button class="size" id="l" type="button">
+                <p> L </p>
+            </button>
+            <button class="size" id="xl" type="button">
+                <p> XL </p>
+            </button>
+            <button class="size" id="xxl" type="button">
+                <p> XXL </p>
+            </button>
+          </div>
+
+          <div class="row sizeHeader">
+          <div class="closeSize col-xs-2 col-sm-1 hidden-lg hidden-md">
+            <button onClick="closeSize()"><img class="img-responsive" src="images/cross.png"></button>
+          </div>
+
+          <div class="selectSize col-xs-8 col-sm-10 hidden-lg hidden-md">
+            Select Size
+          </div>
+          </div>
+
+        <!--shop button-->
+          <div id="addToCart" class="xs">
+              <div id='product-component-076f2c430e1'></div>
+          </div>
+
+          <div id="addToCart" class="m">
+              <div id='product-component-94d30f2ac0a'></div>
           </div>
         </div>
+
+        <div class="mobSize hidden-lg hidden-md">
+          <button onClick="sizeSelect()">
+            <p> Add to Cart </p>
+          </button>
+        </div>
+
+
+        <!--product images-->
 
         <div class="row">
           <div class="img-responsive col-lg-offset-2 col-lg-4 col-md-offset-2 col-md-4 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10">
@@ -336,8 +381,205 @@
 
       <!--buy button desktop js end-->
 
+      <script type="text/javascript">
+      /*<![CDATA[*/
+
+      (function () {
+        var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+        if (window.ShopifyBuy) {
+          if (window.ShopifyBuy.UI) {
+            ShopifyBuyInit();
+          } else {
+            loadScript();
+          }
+        } else {
+          loadScript();
+        }
+
+        function loadScript() {
+          var script = document.createElement('script');
+          script.async = true;
+          script.src = scriptURL;
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+          script.onload = ShopifyBuyInit;
+        }
+
+        function ShopifyBuyInit() {
+          var client = ShopifyBuy.buildClient({
+            domain: 'thesrce.myshopify.com',
+            apiKey: 'e94581c1582307936aa5ed71b389451c',
+            appId: '6',
+          });
+
+          ShopifyBuy.UI.onReady(client).then(function (ui) {
+            ui.createComponent('product', {
+              id: [1349308219469],
+              node: document.getElementById('product-component-94d30f2ac0a'),
+              moneyFormat: '%C2%A3%7B%7Bamount%7D%7D',
+              options: {
+                "product": {
+                  "iframe":false,
+                  "sticky":false,
+                  "variantId": "all",
+                  "contents": {
+                    "img": false,
+                    "imgWithCarousel": false,
+                    "title": false,
+                    "variantTitle": false,
+                    "price": false,
+                    "description": false,
+                    "buttonWithQuantity": false,
+                    "quantity": false,
+                  },
+                  "text": {
+                    "button": "Add to Cart"
+                  },
+                  "styles": {
+                  },
+                },
+                "cart": {
+                  "contents": {
+                    "button": true
+                  },
+                  "text": {
+                    "button": "Checkout"
+                  },
+                  "styles": {
+                    "cart": {
+                      "background-color": "#f2f2f2"
+                    },
+                    "button": {
+                      "background-color": "#f2f2f2",
+                      "border-style":"solid",
+                      "border-width":"3px",
+                      "border-color":"#f04d44",
+                      "border-radius":"0px",
+                      "color": "#f04d44",
+                      "font-family": "Arvo, serif",
+                      ":hover": {
+                        "background-color": "#f04d44",
+                        "color": "#fdd80e"
+                      },
+                      "font-weight": "normal",
+                      ":focus": {
+                        "background-color": "#f04d44",
+                        "color":"#fdd80e"
+                      }
+                    },
+                    "title": {
+                      "color": "#f04d44"
+                    },
+                    "footer": {
+                      "background-color": "#f2f2f2"
+                    },
+                    "header": {
+                      "color": "#f04d44"
+                    },
+                    "lineItems": {
+                      "color": "#f04d44"
+                    },
+                    "subtotalText": {
+                      "color": "#f04d44"
+                    },
+                    "subtotal": {
+                      "color": "#f04d44"
+                    },
+                    "notice": {
+                      "color": "#f04d44"
+                    },
+                    "currency": {
+                      "color": "#f04d44"
+                    },
+                    "close": {
+                      ":hover": {
+                        "color": "#f04d44"
+                      },
+                      "color": "#f04d44"
+                    },
+                    "emptyCart": {
+                      "color": "#f04d44"
+                    }
+                  },
+                  "googleFonts": [
+                    "Arvo"
+                  ]
+                },
+                "toggle": {
+                  "iframe":false,
+                  "sticky":false,
+                  "contents":{
+                    "icon":false,
+                    "title":false
+                  },
+                  "events": {
+                       afterInit: function (component) {
+                           document.getElementById('cart-toggle').appendChild(component.node);
+                       },
+                   },
+                  "styles": {
+                  },
+                },
+                "option": {
+                  "styles": {
+                    "label": {
+                      "font-family": "Arvo, serif"
+                    },
+                    "select": {
+                      "font-family": "Arvo, serif"
+                    }
+                  },
+                  "googleFonts": [
+                    "Arvo",
+                    "Arvo"
+                  ]
+                },
+                "productSet": {
+                  "styles": {
+                    "products": {
+                      "@media (min-width: 601px)": {
+                        "margin-left": "-20px"
+                      }
+                    }
+                  }
+                },
+                "lineItem": {
+                  "styles": {
+                    "variantTitle": {
+                      "color": "#f04d44"
+                    },
+                    "title": {
+                      "color": "#f04d44"
+                    },
+                    "price": {
+                      "color": "#f04d44"
+                    },
+                    "quantity": {
+                      "color": "#f04d44"
+                    },
+                    "quantityIncrement": {
+                      "color": "#f04d44",
+                      "border-color": "#f04d44"
+                    },
+                    "quantityDecrement": {
+                      "color": "#f04d44",
+                      "border-color": "#f04d44"
+                    },
+                    "quantityInput": {
+                      "color": "#f04d44",
+                      "border-color": "#f04d44"
+                    }
+                  }
+                }
+              }
+            });
+          });
+        }
+      })();
+      /*]]>*/
+      </script>
 
       <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script src="js/bootstrap.js"></script>
+      <script src="js/productpage.js"></script>
     </body>
   </html>

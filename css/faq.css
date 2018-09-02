@@ -29,16 +29,6 @@
     margin-bottom:50px;
   }
 
-  .emailAdd{
-    margin-right:59%;
-    width:41%;
-    margin-bottom:20px;
-  }
-
-  .emailButt{
-    width:41%;
-  }
-
   #cart-toggle{
     opacity:1;
   }
@@ -67,22 +57,7 @@
     padding-right:20px;
   }
 
-  .emailAdd{
-    width:100%;
-    margin-bottom:20px;
 
-  }
-
-  .emailButt{
-    width:100%;
-
-  }
-
-  .signup{
-    padding-right:20px;
-    padding-left:20px;
-  }
-  
   .border{
     text-transform: uppercase;
     font-size: 38px;
