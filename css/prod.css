@@ -33,6 +33,22 @@
       outline:0;
     }
 
+    .selectSizeDesk{
+      background-color:#f2f2f2;
+      position: relative;
+      padding-top:10px;
+      padding-bottom:10px;
+      font-size:20px;
+      width:100%;
+      border-style:solid;
+      border-color:#A9A9A9;
+      border-width:3px;
+      margin-top:15px;
+      display: inherit;
+      color:#A9A9A9;
+      text-align: center;
+    }
+
     .size p{
       border-radius:50%;
       border-style:solid;

@@ -45,6 +45,10 @@ function addSizeXS() {
     color:'#f04d44'
   })
 
+  $('.selectSizeDesk').css({
+    display:'none'
+  });
+
 }
 
 function addSizeS() {
@@ -93,6 +97,10 @@ function addSizeS() {
     background:'transparent',
     color:'#f04d44'
   })
+
+  $('.selectSizeDesk').css({
+    display:'none'
+  });
 
 }
 
@@ -143,6 +151,10 @@ function addSizeM() {
     color:'#f04d44'
   })
 
+  $('.selectSizeDesk').css({
+    display:'none'
+  });
+
 }
 
 function addSizeL() {
@@ -192,6 +204,10 @@ function addSizeL() {
     color:'#f04d44'
   })
 
+  $('.selectSizeDesk').css({
+    display:'none'
+  });
+
 }
 
 function addSizeXL() {
@@ -240,6 +256,10 @@ function addSizeXL() {
     background:'transparent',
     color:'#f04d44'
   })
+
+  $('.selectSizeDesk').css({
+    display:'none'
+  });
 
 }
 
