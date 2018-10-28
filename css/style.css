@@ -29,6 +29,10 @@
       margin:0;
     }
 
+    .bengali{
+      font-family: Hind Siliguri;
+    }
+
   /*Logo and add to cart non-index*/
     .logoOther{
       position:fixed;
