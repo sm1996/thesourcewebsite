@@ -1,7 +1,3 @@
-$(window).load(function() {
-  $('#overlay').addClass('hide');
-});
-
 $(window).scroll(function() {
   $('.logoAppear').css({
     opacity:'0'
