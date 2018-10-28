@@ -29,20 +29,6 @@
       margin:0;
     }
 
-    #loading {
-    background: url('../images/loadinggif.gif') no-repeat center center;
-    background-color:#f2f2f2;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-     top: 0;
-      left:0;
-    }
-
-    .hide{
-      display:none;
-    }
-
   /*Logo and add to cart non-index*/
     .logoOther{
       position:fixed;
